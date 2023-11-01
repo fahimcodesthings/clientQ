@@ -1,5 +1,14 @@
+:root {
+  --primary-color: #4AA8F8;
+  --dark-color: #1A3953;
+  --accent-color: #F65751;
+  --light-color: #DFF0FF;
+}
+
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -7,14 +16,14 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 15px;
-  background-color: #1A3953;
-  border-bottom: red solid 5px;
+  background-color: var(--dark-color);
+  border-bottom: var(--accent-color) solid 5px;
   
 }
 
 .logo img {
   height: 45px; /* Adjust the height as per your logo size */
-  margin-left: 15px;
+  margin-left: 150px;
 }
 
 .topheader {
@@ -39,7 +48,7 @@ header {
 }
 
 .topheader li a:hover{
-  color: #55ADF8;
+  color: var(--primary-color);
   transition: color 0.1s ease-in-out;
 }
 
@@ -62,6 +71,12 @@ header {
 }
 
 .hero{
-  background-color: #DFF0FF;
-  padding: 10vw;
+  color: var(--dark-color);
+  background-color: var(--light-color);
+  padding: 9vw;
+  font-size: 34px;
+}
+
+#walk-in{
+  color: var(--primary-color);
 }
