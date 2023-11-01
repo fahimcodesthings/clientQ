@@ -1,35 +1,47 @@
+*{
+    font: inter;
+}
+
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: #1A3953;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #1A3953;
+  border-bottom: red solid 5px;
   
-  .logo img {
-    height: 40px; /* Adjust the height as per your logo size */
-  }
+}
+
+.logo img {
+  height: 40px; /* Adjust the height as per your logo size */
+}
+
+.topheader {
+  list-style: none;
+  display: flex;
+}
+
+.topheader li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.topheader a, .book-button a{
+    font-family: 'Bakbak One';
+}
+
+.topheader li a {
   
-  .options {
-    list-style: none;
-    display: flex;
-    color: white;
-  }
-  
-  .options li:not(:last-child) {
-    margin-right: 10px;
-  }
-  
-  .options li a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .book-button a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-  }
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.book-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #55ADF8;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 5px;
+}
