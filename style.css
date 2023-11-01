@@ -14,6 +14,7 @@ header {
 
 .logo img {
   height: 40px; /* Adjust the height as per your logo size */
+  margin-left: 15px;
 }
 
 .topheader {
@@ -34,6 +35,12 @@ header {
   font-size: 20px;
   text-decoration: none;
   color: white;
+  
+}
+
+.topheader li a:hover{
+  color: #55ADF8;
+  transition: color 0.1s ease-in-out;
 }
 
 .book-button a {
@@ -44,5 +51,10 @@ header {
   text-decoration: none;
   font-size: 24px;
   border-radius: 5px;
-  margin-right: 10px;
+  margin-right: 15px;
+}
+
+.book-button a:hover{
+  color: #1A3953;
+  transition: color 0.1s ease-in-out;
 }
