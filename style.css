@@ -6,14 +6,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 15px;
   background-color: #1A3953;
   border-bottom: red solid 5px;
   
 }
 
 .logo img {
-  height: 40px; /* Adjust the height as per your logo size */
+  height: 45px; /* Adjust the height as per your logo size */
   margin-left: 15px;
 }
 
@@ -52,6 +52,7 @@ header {
   font-size: 24px;
   border-radius: 5px;
   margin-right: 15px;
+  /*border: white solid 3px;>*/
 }
 
 .book-button a:hover{
