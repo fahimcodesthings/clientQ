@@ -26,7 +26,7 @@ header {
   margin-right: 10px;
 }
 
-.topheader a, .book-button a{
+.topheader a, .book-button a, .hero{
     font-family: 'Bakbak One';
 }
 
@@ -58,4 +58,10 @@ header {
 .book-button a:hover{
   color: #1A3953;
   transition: color 0.1s ease-in-out;
+  
+}
+
+.hero{
+  background-color: #DFF0FF;
+  padding: 10vw;
 }
