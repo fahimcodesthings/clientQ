@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1A3953;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust the height as per your logo size */
+  }
+  
+  .options {
+    list-style: none;
+    display: flex;
+    color: white;
+  }
+  
+  .options li:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .options li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .book-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
