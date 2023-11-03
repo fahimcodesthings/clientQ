@@ -135,3 +135,40 @@ header nav ul li a {
   text-align: center;
   color: var(--dark-color);
 }
+
+.benifits-box{
+  background-color: var(--primary-color);
+  align-items: center;
+  padding: 10px;
+}
+
+
+footer{
+  background: var(--dark-color);
+  padding: 40px 20px;
+  border-top: var(--accent-color) 5px solid;
+}
+
+footer .footercontainer{
+  
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+
+footer h2,a{
+  color: var(--light-color);
+  font-family: 'Bakbak One';
+  font-weight: lighter;
+}
+
+footer a{
+  display: flex;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: var(--primary-color);
+  transition: color 0.1s ease-in-out;
+}
