@@ -6,45 +6,89 @@
 }
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px #fff solid; */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.0;
+}
+
+ul {
+  list-style: none;
 }
 
 header {
+  background: var(--dark-color);
+  padding: 0 200px;
+  border-bottom: var(--accent-color) 5px solid;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 10px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.hero {
+  background-color: var(--light-color);
+  padding: 150px;
+  padding-left: 300px;
+}
+
+.containers {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.hero-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 15px;
-  background-color: var(--dark-color);
-  border-bottom: var(--accent-color) solid 5px;
+}
+
+.hero-headline {
+  margin-right: 50px;
+  font-family: 'Bakbak One';
+  
+  font-weight: normal;
+  color: var(--dark-color);
+  background-color: var(--light-color);
+  font-size: 64px;
   
 }
 
-.logo img {
-  height: 45px; /* Adjust the height as per your logo size */
-  margin-left: 150px;
+.hero-image {
+  padding-left: 8vw;
+  max-width: 1400px;
 }
 
-.topheader {
-  list-style: none;
+
+header nav {
   display: flex;
 }
 
-.topheader li:not(:last-child) {
-  margin-right: 10px;
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.topheader a, .book-button a, .hero{
-    font-family: 'Bakbak One';
-}
-
-.topheader li a {
-  
-  font-size: 20px;
+header nav ul li a {
+  font-family:'Bakbak One', 'Inter', sans-serif;
   text-decoration: none;
-  color: white;
-  
+  color: #fff;
+  padding: 15px; 
 }
 
 .topheader li a:hover{
@@ -55,9 +99,10 @@ header {
 .book-button a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #55ADF8;
+  background-color: var(--primary-color);
   color: #fff;
   text-decoration: none;
+  font-family: 'Bakbak One';
   font-size: 24px;
   border-radius: 5px;
   margin-right: 15px;
@@ -70,13 +115,23 @@ header {
   
 }
 
-.hero{
-  color: var(--dark-color);
-  background-color: var(--light-color);
-  padding: 9vw;
-  font-size: 34px;
-}
-
 #walk-in{
   color: var(--primary-color);
+}
+
+.benifits{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+
+}
+
+.benifits-headline{
+  font-family: 'Bakbak One';
+  font-weight: normal;
+  font-size: 54px;
+  max-width: 1200px;
+  text-align: center;
+  color: var(--dark-color);
 }
