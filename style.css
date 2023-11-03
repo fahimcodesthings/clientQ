@@ -137,9 +137,20 @@ header nav ul li a {
 }
 
 .benifits-box{
-  background-color: var(--primary-color);
-  align-items: center;
-  padding: 10px;
+  background-color: var(--dark-color);
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  left: 9vw;
+  max-width: 1600px;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  text-align: center;
+  padding: 25px;
+  font-family: 'Bakbak One';
+  font-size: 15px;
+  font-weight: normal;
+  color: var(--light-color);
 }
 
 
@@ -157,7 +168,7 @@ footer .footercontainer{
 
 }
 
-footer h2,a{
+footer h2{
   color: var(--light-color);
   font-family: 'Bakbak One';
   font-weight: lighter;
@@ -165,10 +176,20 @@ footer h2,a{
 
 footer a{
   display: flex;
+  color: var(--light-color);
+  font-family: 'Inter';
+  font-weight: bold;
   text-decoration: none;
 }
 
 footer a:hover{
   color: var(--primary-color);
   transition: color 0.1s ease-in-out;
+}
+
+.icons{
+  display: flex;
+  padding: 10px;
+  max-width: 120px;
+  justify-content: space-between;
 }
